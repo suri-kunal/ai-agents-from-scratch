@@ -2,21 +2,15 @@
 
 ## Vision
 
-Build robust, state-of-the-art AI agents from first principles—no agent frameworks, no shortcuts, no crutches. Every agent, every component, every evaluation must be built and understood from the ground up.
+I have been awestruck by capabilities of LLMs/VLMs and how they can perform tasks with agency. Dabbled with a lot of LLM frameworks (Langchain, LangGraph, and whatnot) but somehow felt something missing. One day I came across [From Deep Learning Foundations to Stable Diffusion](https://course.fast.ai/Lessons/part2.html) by Jeremy Howard and his methodology for this course hit a nerve - Don't use an API until you cannot recreate it yourself.
 
-**Goal:** Master every step of agent development, from data to deployment, with ruthless honesty and measurable progress.
+Following principles of this course, my vision for this repo is to build robust, state-of-the-art AI agents from first principles — no agent frameworks, no shortcuts, no crutches. Every agent, every component, every evaluation must be built and understood from the ground up.
 
-## What This Project Is (and Isn't)
+**Goal:** Master every step of agent development - from data to deployment - with measurable progress.
 
--   **Is:** A research-grade codebase for building, evaluating, and iterating on AI agents for real-world tasks, using only foundational libraries (LLM APIs, PyTorch, HuggingFace, etc.).
--   **Isn't:** A playground for copying agent frameworks, or a collection of "prompt hacks." No LangChain, CrewAI, AutoGen, smol-agents, or similar abstractions allowed.
+## Scope of this Project
 
-## Core Principles
-
--   **No Frameworks:** All agent logic, memory, planning, and tool use must be implemented from scratch.
--   **Benchmark-Driven:** Every agent must be evaluated on a public, competitive benchmark. No cherry-picking, no hand-waving.
--   **Brutal Honesty:** Every failure, limitation, and blind spot must be documented and analyzed. No self-delusion.
--   **Iterative Mastery:** Each agent is a stepping stone. Master the basics before moving to more complex tasks.
+- My vision for this project is purely pedagogical. I plan on learning how to build, evaluate, and iterate every part of AI agents - tool usage, memory, planning, and reasoning. Since my goal is learning with measurable progress, I would be using a lot of publicly available benchmarks. As part of this journey, I would be using only foundational libraries (Python, LLM APIs, PyTorch, HuggingFace, etc.) and would be actively avoiding agent frameworks like LangChain, CrewAI, AutoGen, smol-agents.
 
 ## Project Structure
 
@@ -36,26 +30,11 @@ Build robust, state-of-the-art AI agents from first principles—no agent framew
 
 ## Roadmap
 
-1.  **Tool-Use Agent v1 (Single Tool Selection):**
-    -   **Task:** Given a scenario, select the correct tool from a list.
+1.  **Tool-Use Agent:**
+    -   **Task:** Given a scenario, select the correct tool from a given list.
     -   **Benchmark:** [Agent Leaderboard Tool Use/Function Calling Dataset](https://huggingface.co/blog/pratikbhavsar/agent-leaderboard)
-2.  **Tool-Use Agent v2 (Parallel Tool Use & Parameterization):**
-    -   **Task:** Given a scenario, select one or more tools and correctly populate their arguments.
-    -   **Benchmark:** To be determined.
-3.  **Planning Agent:**
-    -   **Task:** Decompose a multi-step problem into a sequence of tool calls.
-    -   **Benchmark:** To be determined.
 
-*(Each stage must be benchmarked, analyzed, and documented before moving to the next.)*
-
-## How to Contribute
-
--   Fork the repo, create a feature branch, and submit a pull request.
--   All new agents must include:
-    -   A clear task definition and benchmark.
-    -   A baseline implementation.
-    -   Automated evaluation scripts.
-    -   Error analysis and documentation in a local `README.md`.
+*(Each stage must be benchmarked, analyzed, and documented before moving to the next - I really cannot emphasize this enough)*
 
 ## License
 
