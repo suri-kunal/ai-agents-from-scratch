@@ -2,7 +2,7 @@
 
 ## Vision
 
-I have been awestruck by capabilities of LLMs/VLMs and how they can perform tasks with agency. Dabbled with a lot of LLM frameworks (Langchain, LangGraph, and whatnot) but somehow felt something missing. One day I came across [From Deep Learning Foundations to Stable Diffusion](https://course.fast.ai/Lessons/part2.html) by Jeremy Howard and his methodology for this course hit a nerve - **(Don't use an API until you cannot recreate it yourself.)**
+I have been awestruck by capabilities of LLMs/VLMs and how they can perform tasks with agency. Dabbled with a lot of LLM frameworks (Langchain, LangGraph, and whatnot) but somehow felt something missing. One day I came across [From Deep Learning Foundations to Stable Diffusion](https://course.fast.ai/Lessons/part2.html) by Jeremy Howard and his methodology for this course hit a nerve - **Don't use an API until you cannot recreate it yourself.**
 
 Following principles of this course, my vision for this repo is to learn to build robust, state-of-the-art AI agents from first principles without using any agent frameworks. Every component must be understood, built, and evaluated from the ground up.
 
