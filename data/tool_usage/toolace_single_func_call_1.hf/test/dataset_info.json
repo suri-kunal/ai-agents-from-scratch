@@ -1,0 +1,66 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "toolace_single_func_call_1",
+  "dataset_name": "agent-leaderboard",
+  "dataset_size": 39312,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/galileo-ai/agent-leaderboard@a9b20a0b92c6115744a0977209e572659785ec50/toolace_single_func_call_1/test-00000-of-00001.parquet": {
+      "num_bytes": 28913,
+      "checksum": null
+    }
+  },
+  "download_size": 28913,
+  "features": {
+    "tools_langchain": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "all_msgs": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "conversation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "n_function_calls": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "n_turns": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "len_query": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "n_tools": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "index": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 68225,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 39312,
+      "num_examples": 20,
+      "dataset_name": "agent-leaderboard"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

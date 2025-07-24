@@ -1,0 +1,74 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "xlam_tool_miss",
+  "dataset_name": "agent-leaderboard",
+  "dataset_size": 296885,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/galileo-ai/agent-leaderboard@a9b20a0b92c6115744a0977209e572659785ec50/xlam_tool_miss/test-00000-of-00001.parquet": {
+      "num_bytes": 131936,
+      "checksum": null
+    }
+  },
+  "download_size": 131936,
+  "features": {
+    "conversation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "answers": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tools": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "n_tools": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "len_query": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "n_function_calls": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "n_turns": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "tool_removed": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tools_langchain": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "index": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 428821,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 296885,
+      "num_examples": 100,
+      "dataset_name": "agent-leaderboard"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

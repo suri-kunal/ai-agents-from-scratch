@@ -1,0 +1,54 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "tau_long_context",
+  "dataset_name": "agent-leaderboard",
+  "dataset_size": 1003639,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/galileo-ai/agent-leaderboard@a9b20a0b92c6115744a0977209e572659785ec50/tau_long_context/test-00000-of-00001.parquet": {
+      "num_bytes": 28098,
+      "checksum": null
+    }
+  },
+  "download_size": 28098,
+  "features": {
+    "conversation": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tools_langchain": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "n_turns": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "len_query": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "n_tools": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1031737,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 1003639,
+      "num_examples": 100,
+      "dataset_name": "agent-leaderboard"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
