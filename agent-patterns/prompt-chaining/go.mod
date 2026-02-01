@@ -1,3 +1,3 @@
-module prompt-chaining
+module parallelization
 
 go 1.25.1
